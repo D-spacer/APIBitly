@@ -19,6 +19,7 @@ API-ключ должен храниться в файле .env, который 
 -
 Скрипт запускается прямо из консоли:
 > python APIBitly/main.py <ссылка>
+> 
 > Например:
 > python APIBitly/main.py https://google.com
 
