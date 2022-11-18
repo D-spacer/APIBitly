@@ -6,22 +6,22 @@
 -
 Для установки пакета склонируйте его с репозитория с помощью команды
 
->git clone https://github.com/D-spacer/APIBitly.git
+```git clone https://github.com/D-spacer/APIBitly.git```
 
 Зависимости
 -
 Скрипт использует API сервиса Bitly, для которого необходим API-ключ. Получить API-ключ можно в личном кабинете сервиса https://app.bitly.com/settings/api/.
 API-ключ должен храниться в файле .env, который следует разместить рядом с файлом main.py. В файле необходимо одной строкой написать
 
->BITLY_TOKEN=<токен>
+```BITLY_TOKEN=<токен>```
 
 Запуск скрипта
 -
 Скрипт запускается прямо из консоли:
-> python APIBitly/main.py <ссылка>
-> 
-> Например:
-> python APIBitly/main.py https://google.com
+```python APIBitly/main.py <ссылка>```
+
+Например:
+```python APIBitly/main.py https://google.com```
 
 Где ссылка - это ссылка bitly, у которой вы хотите посмотреть количество переходов, или любая другая ссылка, которую вы хотите сократить.
 
